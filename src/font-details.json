@@ -1,33 +1,200 @@
 [
-    {
-        "fontFamily": "Stix",
-        "filename": "stix.otf",
-        "author": "Randi Arnot",
-        "year": 2019,
-        "course": "Adv. Type",
-        "availChars": "abcdefghijklmnopqrstuvwxyz",
-        "description": "As if you had a bundle of sticks, threw them on the ground and letterforms appeared; minimal kerning for maximum camouflage, legibility optional, variable weights, and alternate characters",
-        "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. No 9000 computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
-    },
-    {
-        "fontFamily": "Wiggle",
-        "filename": "Wiggle.otf",
-        "specimenFilename": "Wiggle_Specimen.pdf",
-        "author": "Brooke Cassity",
-        "year": 2017,
-        "course": "Adv. Type",
-        "availChars": "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890,./<>?;':[]\\{}|~!@#$%^&*()_+-=",
-        "description": "A blackletter typeface with a wiggly side. The curves of each letterform fits together, enabling tighter kerning which accentuates the feeling of movement. Great for display use on posters, books, shirts, hats, or wherever!",
-        "sampleText": "Let me put it this way, Mr. Amor. The 9000 series is the most reliable computer ever made. No 9000 computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
-    },
-    {
-        "fontFamily": "Aesop",
-        "filename": "Aesop.otf",
-        "author": "Andrew Mason",
-        "year": 2017,
-        "course": "Adv. Type",
-        "availChars": "abcdefghijklmnopqrstuvwxyz",
-        "description": "AESOP is a light-hearted, light-weight sans serif in two weights from the future. It is the work of typographers in the 25th century working from preserved fragments of paper to reconstruct the lost art of handwriting. Some gaps are to be expected.",
-        "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. No 9000 computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
-    }
+  {
+    "fontFamily": "Stix",
+    "filename": "stix.otf",
+    "specimenFilename": "Arnot_stixspecimen.pdf",
+    "author": "Randi Arnot",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz",
+    "description": "As if you had a bundle of sticks, threw them on the ground and letterforms appeared; minimal kerning for maximum camouflage, legibility optional, variable weights, and alternate characters",
+    "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. No 9000 computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "SpaceAge",
+    "filename": "SpaceAge.otf",
+    "specimenFilename": "Barbour_SpaceAge_Specimen.pdf",
+    "author": "Kassandra Barbour",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": " ABCDEFGHIJKLMNOPQRSTUVWXYZ,.;:'&amp;",
+    "description": "Space Age is a typeface inspired by the sci-fi genre. With tight spacing and an implied sense of motion, this futuristic display-face, like most cheesy sci-fi fonts, must be typed in all caps.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Cyber",
+    "filename": "Cyber.otf",
+    "specimenFilename": "CyberSpecimen.pdf",
+    "author": "Madina Khodjanyazova",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ.,",
+    "description": "A futuristic sci-fi typeface. The slanted body of each letter suggests movement and the sharp angular design conveys cutting edge technology. Perfect for books, video game, and poster displays.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Swirl",
+    "filename": "swirl.otf",
+    "specimenFilename": "SwirlSpecimenSheet.pdf",
+    "author": "Jessica Barron",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz",
+    "description": "Swirl is a semi-connected, elegant script. It’s thick and thin strokes are based off a calligraphic style.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "FuckNazis",
+    "filename": "fucknazis.otf",
+    "specimenFilename": "FuckNazis.pdf",
+    "author": "Malena Darden",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz.,:;!¡?¿*/_”’",
+    "description": "A rune-inspired, all-caps display font, not to be confused with symbols adopted by white supremacists. Great for magic and promoting racial equality.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Trek",
+    "filename": "Trek.otf",
+    "specimenFilename": "Trek_Specimen.pdf",
+    "author": "Aaron Kvarfordt",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "description": "Crafted out of precious metals and bearing a mechanical face, this slab serif typeface was made for those who aren’t afraid to walk the unbeaten path.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Delusive",
+    "filename": "Delusive.otf",
+    "specimenFilename": "Delusive_Specimen.pdf",
+    "author": "Jeff Lautenslager",
+    "year": 2018,
+    "course": "Adv. Type.",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "description": "A Modern Sans Serif made up of entirely negative space, designed to be used as both solid or outlined text.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "funky",
+    "filename": "funky.otf",
+    "specimenFilename": "funky.pdf",
+    "author": "Erika Mattos",
+    "year": 2018,
+    "course": "Adv. Type.",
+    "availChars": "abcdefghijklmnopqrstuvwxyz",
+    "description": "A serif typeface that got put in the microwave, a funky font that comes with two sets of each letter that you can you to combine and create different looking words every time with a hand crafted look",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "AntimatterFill",
+    "filename": "AntimatterFill.otf",
+    "specimenFilename": "McLean_Antimatter_Specimen.pdf",
+    "author": "Levi McLean",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz?!.,-:;",
+    "description": "A futuristic, blocky display face with both fill and outline options. Perfect for communication on Earth and elsewhere.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "AntimatterOutline",
+    "filename": "AntimatterOutline.otf",
+    "specimenFilename": "McLean_Antimatter_Specimen.pdf",
+    "author": "Levi McLean",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz?!.,-:;",
+    "description": "A futuristic, blocky display face with both fill and outline options. Perfect for communication on Earth and elsewhere.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Shroom",
+    "filename": "Shroom.otf",
+    "specimenFilename": "Shroom.pdf",
+    "author": "Camille Poynter",
+    "year": 2018,
+    "course": "Advanced Type",
+    "availChars": "ABECDEFGHIJKLMNOPQRSTUVWXYZ",
+    "description": "A top heavy psychedelic typeface for all you trippy needs.",
+    "sampleText": "MR. VAUGHN, WHAT WE ARE DEALING WITH HERE IS A PERFECT ENGINE, AN EATING MACHINE. IT’S REALLY A MIRACLE OF EVOLUTION. ALL THIS MACHINE DOES IS SWIM AND EAT AND MAKE LITTLE SHARKS, AND THAT'S ALL. NOW, WHY DON’T YOU TAKE A LONG, CLOSE LOOK AT THIS SIGN."
+  },
+  {
+    "fontFamily": "edge",
+    "filename": "edge.otf",
+    "specimenFilename": "edge.pdf",
+    "author": "Daniel Saline",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz.,",
+    "description": "Edge is a lowercase typeface with little negative space and lots of directional forces. Although there are no capitals, edge still takes up plenty of space.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Parigot",
+    "filename": "Parigot.otf",
+    "specimenFilename": "Parigot.pdf",
+    "author": "Molly Schmidt",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABECDEFGHIJKLMNOPQRSTUVWXYZ",
+    "description": "Parigot is a square sans serif display font. Created with an Art Deco flare, it harkens back to a nostalgic time of iconic geometric designs, Gatsby, and flappers.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Crinkle",
+    "filename": "Crinkle.otf",
+    "specimenFilename": "Crinkle.pdf",
+    "author": "Mason Seeberger",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!?.,’",
+    "description": "A broken down, angular typeface set with tight spacing to allow characters to run into the edges of each other giving a multi-line crinkle across the page.",
+    "sampleText": "OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW. OH SPHINX OF BLACK QUARTZ JUDGE MY VOW."
+  },
+  {
+    "fontFamily": "Ribbon",
+    "filename": "Ribbon.otf",
+    "specimenFilename": "Ribbon.pdf",
+    "author": "Allegra Weeks",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!.,’",
+    "description": "Ribbon uses an outlined stroke that creates a twisting and turning illusion, while also offering geometric and organic effects throughout every letter.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE NINE-THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO NINE-THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Myth",
+    "filename": "Myth.otf",
+    "specimenFilename": "Myth.pdf",
+    "author": "Sierra Wells",
+    "year": 2018,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!.,:;\u201c\u201d-\u2014&",
+    "description": "MYTH is a storybook typeface with charming curves and enchantingly subtle flared terminals. It is available in uppercase and lowercase for the purpose of setting short prose or epic stories. This font will make you believe in magic.",
+    "sampleText": "Let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. No nine-thousand computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Greyletter",
+    "filename": "Greyletter.otf",
+    "specimenFilename": "Greyletter_Specimen_Sheet.pdf",
+    "author": "Chloe Pampush",
+    "year": 2019,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz0123456789 !\"&'(),-./:;?[\\]\u2013\u2014\u2018\u2019\u201a\u201c\u201d\u201e",
+    "description": "It\u2019s like a blackletter, but not. With rounded serifs and softer angles, it\u2019s a modern version of the historic script without the sharp corners (or fascist connotations).",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Pool-Party",
+    "filename": "Pool-Party.otf",
+    "specimenFilename": "Pool-Party.pdf",
+    "author": "Robin Pinger",
+    "year": 2019,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜabcdefghijklmnopqrstuvwxyzäöü0123456789 !\"#$%&'()*,-.:;?@¡¨©®°\u2018\u2019\u201a\u201c\u201d\u201e",
+    "description": "A condensed sans serif, but viewed through several feet of water and chlorine-soaked eyeballs.",
+    "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  }
 ]

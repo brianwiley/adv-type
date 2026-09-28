@@ -5,11 +5,17 @@ import fonts from '../font-details.json';
 import button from '../topButton.svg';
 import '../App.css';
 
-const Main = () => (
+const Main = ({ theme, toggleTheme }) => (
     <React.Fragment>
         <div className="header navbar">
             <span>Boise State GDes Typography</span>
-            <span className="about"><Link to='/About'>About</Link></span>
+            <span className="header-actions">
+                <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+                    <span className="toggle-track"><span className="toggle-thumb"></span></span>
+                    <span className="toggle-label">{theme === 'dark' ? 'Light' : 'Dark'}</span>
+                </button>
+                <span className="about"><Link to='/About'>About</Link></span>
+            </span>
         </div>
         <div className="padding">
             {fonts.map((font, index) => (
@@ -51,4 +57,4 @@ const Main = () => (
     </React.Fragment>
 );
 
-export default Main
+export default Main;

@@ -1,15 +1,44 @@
-a{
+/* ── Theme variables ── */
+:root {
+  --bg:              black;
+  --text:            white;
+  --text-muted:      rgba(255, 255, 255, 0.5);
+  --text-secondary:  rgba(255, 255, 255, 0.7);
+  --border-color:    rgba(255, 255, 255, 0.7);
+  --specimen-border: rgba(255, 255, 255, 0.5);
+  --toggle-track:    rgba(255, 255, 255, 0.3);
+  --toggle-thumb:    white;
+  --toggle-thumb-translate: 0px;
+}
+
+body.light-mode {
+  --bg:              white;
+  --text:            black;
+  --text-muted:      rgba(0, 0, 0, 0.5);
+  --text-secondary:  rgba(0, 0, 0, 0.7);
+  --border-color:    rgba(0, 0, 0, 0.7);
+  --specimen-border: rgba(0, 0, 0, 0.5);
+  --toggle-track:    rgba(0, 0, 0, 0.15);
+  --toggle-thumb:    #333;
+  --toggle-thumb-translate: 16px;
+}
+
+/* ── Base ── */
+a {
   text-decoration: none;
   color: inherit;
 }
 
-body{
-  background: black;
-  color: white;
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.2s, color 0.2s;
 }
 
+/* ── Header ── */
 .header {
-  background-color:#AE03FF;
+  background-color: #AE03FF;
+  color: white;
   height: 30px;
   line-height: 30px;
   margin-bottom: 110px;
@@ -18,16 +47,62 @@ body{
   font-size: 16px;
 }
 
-.about{
-  color: rgba(255, 255, 255, 0.5);
+.header-actions {
   float: right;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
 }
 
-.buttonContainer{
+.about {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto;
+  font-size: 13px;
+  padding: 0;
+  line-height: 30px;
+}
+
+.toggle-track {
+  width: 34px;
+  height: 18px;
+  background: var(--toggle-track);
+  border-radius: 9px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  transition: background 0.25s;
+}
+
+.toggle-thumb {
+  width: 12px;
+  height: 12px;
+  background: var(--toggle-thumb);
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transform: translateX(var(--toggle-thumb-translate));
+  transition: transform 0.25s, background 0.25s;
+}
+
+/* ── Buttons ── */
+.buttonContainer {
   margin: 20px 0;
 }
 
-.buttonDownload{
+.buttonDownload {
   border: 2px solid #AE03FF;
   color: #AE03FF;
   min-width: 184px;
@@ -44,17 +119,17 @@ body{
   letter-spacing: 0.05em;
 }
 
-.buttonDownload > a{
+.buttonDownload > a {
   color: #AE03FF;
   display: block;
 }
 
-.buttonSpecimen{
+.buttonSpecimen {
   background: none;
   border-radius: 5px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid var(--specimen-border);
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--specimen-border);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -67,69 +142,69 @@ body{
   text-align: center;
 }
 
-.buttonSpecimen > a{
-  color: rgba(255, 255, 255, 0.5);
+.buttonSpecimen > a {
+  color: var(--specimen-border);
   display: block;
 }
 
-.description{
+/* ── Font display ── */
+.description {
   width: 484px;
   height: 90px;
   font-family: Roboto;
   line-height: 23px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-secondary);
 }
 
-.fontContainer{
+.fontContainer {
   padding: 0 100px;
 }
 
-.fontDescript{
+.fontDescript {
   margin: 20px 0;
   font-family: Roboto;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-secondary);
 }
 
-.fontDetails{
+.fontDetails {
   font-family: Roboto;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-secondary);
 }
 
-.fontFamily{
-  font-family:Roboto;
-  font-size:16px;
+.fontFamily {
+  font-family: Roboto;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
-.fontPreview{
-  border-right: 3px solid rgba(255, 255, 255, 0.7);
+.fontPreview {
+  border-right: 3px solid var(--border-color);
   font-size: 192px;
-  color: #FFFFFF;
+  color: var(--text);
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   height: 200px;
-  /* margin-top: -8px; */
 }
 
-.fontSize-1:before{
+.fontSize-1:before {
   content: "192 points";
   font-family: Roboto;
   font-size: 12px;
-  color:rgba(255, 255, 255, 0.5);
+  color: var(--text-muted);
 }
 
-.fontSize-2:before{
+.fontSize-2:before {
   content: "24 points";
   font-family: Roboto;
   font-size: 12px;
-  color:rgba(255, 255, 255, 0.5);
+  color: var(--text-muted);
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
   column-gap: 107px;
@@ -137,29 +212,29 @@ body{
   padding: 0 97px 0 0;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   right: 0;
   left: 0;
   z-index: 999;
 }
 
-.padding{
+.padding {
   padding-top: 110px;
 }
 
-.sampleText{
+.sampleText {
   font-size: 24px;
   letter-spacing: 0.05em;
   overflow-y: auto;
-  color: #FFFFFF;
+  color: var(--text);
   float: right;
   height: 192px;
   line-height: 28px;
   padding-bottom: 8px;
 }
 
-.backToTop{
+.backToTop {
   display: none;
 }
 
@@ -168,12 +243,12 @@ body{
 
 
 @media only screen and (max-width: 600px) {
-  button{
+  button {
     margin: auto;
   }
 
   .header {
-    background-color:#AE03FF;
+    background-color: #AE03FF;
     height: 30px;
     line-height: 30px;
     margin-bottom: 36px;
@@ -181,101 +256,102 @@ body{
     font-size: 16px;
     padding: 0 15px;
   }
-  
-  .about{
+
+  .about {
     color: rgba(255, 255, 255, 0.5);
-    float: right;
   }
 
-  .backToTop{
+  .backToTop {
     position: fixed;
     right: 15px;
     top: 620px;
     display: inline;
   }
 
-  .buttonDownload{
-    width: 100%;
-  }
-  
-  .buttonSpecimen{
+  .buttonDownload {
     width: 100%;
   }
 
-  .buttonContainer{
+  .buttonSpecimen {
+    width: 100%;
+  }
+
+  .buttonContainer {
     margin: 0;
   }
 
-  .fontContainer{
+  .fontContainer {
     padding: 0 15px;
   }
 
-  .fontDescript{
+  .fontDescript {
     margin: 30px 0;
   }
-  
-  .fontDetails{
+
+  .fontDetails {
     font-family: Roboto;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-secondary);
   }
-  
-  .fontFamily{
-    font-family:Roboto;
-    font-size:16px;
+
+  .fontFamily {
+    font-family: Roboto;
+    font-size: 16px;
   }
-  
-  
-  .fontPreview{
-    border-right: 3px solid rgba(255, 255, 255, 0.7);
+
+  .fontPreview {
+    border-right: 3px solid var(--border-color);
     max-width: 90vw;
     font-size: 96px;
-    color: #FFFFFF;
+    color: var(--text);
     overflow-x: auto;
     white-space: nowrap;
     box-sizing: border-box;
-    height: 110px; 
+    height: 110px;
     padding-top: 0px;
   }
 
-  .fontSize{
+  .fontSize {
     margin: 15px 0 30px 0;
   }
 
-  .fontSize-1:before{
+  .fontSize-1:before {
     content: "96 points";
   }
-  
-  .grid-container{
+
+  .grid-container {
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: auto;
     column-gap: 0px;
     margin: 19px 0 60px 0;
     padding: 0 0 0 0;
   }
 
-  .padding{
+  .padding {
     padding-top: 70px;
   }
-  
-  .sampleText{
-    /* width: 305px; */
+
+  .sampleText {
     font-size: 24px;
     letter-spacing: 0.05em;
     overflow-y: auto;
     height: 190px;
-    color: #FFFFFF;
-    margin-bottom:15px;
+    color: var(--text);
+    margin-bottom: 15px;
     padding-bottom: 0;
+  }
+
+  .toggle-label {
+    display: none;
   }
 }
 
 /* ====================================== */
 
-.aboutPage{
-  color:#AE03FF;
-  font-family:Roboto;
-  font-size:16px;
+.aboutPage {
+  color: #AE03FF;
+  font-family: Roboto;
+  font-size: 16px;
   left: 50%;
   margin: 0;
   margin-right: -50%;
