@@ -221,6 +221,17 @@
     "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. no 9000 computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
   },
   {
+    "fontFamily": "Cipher",
+    "filename": "Cipher.otf",
+    "specimenFilename": "Cipher_Specimen.pdf",
+    "author": "Makena Walker",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz",
+    "description": "Designed for surfaces that don't exist yet. Cipher is the typeface you would find etched into the bulkheads of a 2150 space station — modular, precise, built to be read at speed in low light with no margin for error. And yet somehow it also looks like it was already there, carved into something ancient long before anyone thought to call it a font.",
+    "sampleText": "let me put it this way mr amor the nine thousand series is the most reliable computer ever made no nine thousand computer has ever made a mistake or distorted information we are all by any practical definition of the words foolproof and incapable of error"
+  },
+  {
     "fontFamily": "Creepy",
     "filename": "Creepy.otf",
     "specimenFilename": "Creepy_Specimen.pdf",
@@ -319,6 +330,28 @@
     "course": "Adv. Type",
     "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,?!-",
     "description": "Striking. Pristine. Cutting-edge. Sharp as crystal, Prism is a geometric all-caps typeface. Perfect for when other fonts just aren't cutting it.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Puffed",
+    "filename": "Puffed.otf",
+    "specimenFilename": "Puffed_Specimen.pdf",
+    "author": "Melanie McKenzie",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,?!-",
+    "description": "Air-filled and pressed together into letters, Puffed is dense, soft, and caps only, made to feel more than read.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Strand",
+    "filename": "Strand.otf",
+    "specimenFilename": "Strand_Specimen.pdf",
+    "author": "Kayla Anderson",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,?!-",
+    "description": "Strand is a typeface inspired by collapsed rope, featuring thick, bold letterforms that loop and intertwine. It is designed to be typed in all caps.",
     "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
   }
 ]
