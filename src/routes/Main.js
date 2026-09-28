@@ -21,7 +21,7 @@ const Main = ({ theme, toggleTheme }) => (
             {fonts.map((font, index) => (
                 <div className="fontContainer" key={index}>
 
-                    <div className="fontFamily">{font.fontFamily}</div>
+                    <div className="fontFamily">{font.displayName || font.fontFamily}</div>
                     <div className="fontDetails">{font.author}&nbsp; |&nbsp; {font.year}&nbsp; |&nbsp; {font.course}</div>
                     <div className="grid-container">
                         <div>

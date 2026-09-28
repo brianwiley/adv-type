@@ -171,7 +171,7 @@
     "author": "Sierra Wells",
     "year": 2018,
     "course": "Adv. Type",
-    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!.,:;\u201c\u201d-\u2014&",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!.,:;“”-—&",
     "description": "MYTH is a storybook typeface with charming curves and enchantingly subtle flared terminals. It is available in uppercase and lowercase for the purpose of setting short prose or epic stories. This font will make you believe in magic.",
     "sampleText": "Let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. No nine-thousand computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
   },
@@ -182,8 +182,8 @@
     "author": "Chloe Pampush",
     "year": 2019,
     "course": "Adv. Type",
-    "availChars": "abcdefghijklmnopqrstuvwxyz0123456789 !\"&'(),-./:;?[\\]\u2013\u2014\u2018\u2019\u201a\u201c\u201d\u201e",
-    "description": "It\u2019s like a blackletter, but not. With rounded serifs and softer angles, it\u2019s a modern version of the historic script without the sharp corners (or fascist connotations).",
+    "availChars": "abcdefghijklmnopqrstuvwxyz0123456789 !\"&'(),-./:;?[\\]–—‘’‚“”„",
+    "description": "It’s like a blackletter, but not. With rounded serifs and softer angles, it’s a modern version of the historic script without the sharp corners (or fascist connotations).",
     "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
   },
   {
@@ -193,8 +193,132 @@
     "author": "Robin Pinger",
     "year": 2019,
     "course": "Adv. Type",
-    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜabcdefghijklmnopqrstuvwxyzäöü0123456789 !\"#$%&'()*,-.:;?@¡¨©®°\u2018\u2019\u201a\u201c\u201d\u201e",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜabcdefghijklmnopqrstuvwxyzäöü0123456789 !\"#$%&'()*,-.:;?@¡¨©®°‘’‚“”„",
     "description": "A condensed sans serif, but viewed through several feet of water and chlorine-soaked eyeballs.",
     "sampleText": "let me put it this way, mr. amor. the nine-thousand series is the most reliable computer ever made. no nine-thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "BooGidi",
+    "filename": "BooGidi.otf",
+    "specimenFilename": "BooGidi_Specimen.pdf",
+    "author": "Taylor Lilya Kay",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789 .,?!'",
+    "description": "Boogie Woogi is mainly a display font that's comprised of dancing ghosts, some happy, some sad. The lowercase and caps can be used separately or interchangeably for more ghosts or just smoke.",
+    "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. No 9000 computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "BubblyCursive",
+    "displayName": "Bubbly Cursive",
+    "filename": "BubblyCursive.otf",
+    "specimenFilename": "BubblyCursive_Specimen.pdf",
+    "author": "Patricia Furtuna",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz 0123456789 .,:;?!-",
+    "description": "Bubbly Cursive is a serifed, dynamic, and looped typeface that is lowercase and makes you want to go plant shopping in spring.",
+    "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. no 9000 computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Creepy",
+    "filename": "Creepy.otf",
+    "specimenFilename": "Creepy_Specimen.pdf",
+    "author": "Elizabeth Dobbs",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz 0123456789 .,:;?!-#",
+    "description": "Creepy is an irregular, organic typeface that feels as if it's slowly melting or growing, with uneven strokes and distorted letterforms that create a sense of unease. Its unpredictable shapes and hand-drawn texture evoke horror and tension, making it ideal for designs that aim to feel unsettling and atmospheric.",
+    "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. no 9000 computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "Crow",
+    "filename": "Crow.otf",
+    "specimenFilename": "Crow_Specimen.pdf",
+    "author": "Carson Murray",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,?!-$#",
+    "description": "A crow-inspired, all-caps display font. Can be used from festivals to vape shops.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Deflata",
+    "filename": "Deflata.otf",
+    "specimenFilename": "Deflata_Specimen.pdf",
+    "author": "Asia Lawyer",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz 0123456789 .,:;?!'-",
+    "description": "Deflata is a typeface inspired by the motion of a deflating balloon. The combination of inflated letterforms and script creates the illusion of a deflating balloon.",
+    "sampleText": "let me put it this way, mr. amor. the nine thousand series is the most reliable computer ever made. no nine thousand computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "DeutschPapier",
+    "displayName": "Deutsch Papier",
+    "filename": "DeutschPapier.otf",
+    "specimenFilename": "DeutschPapier_Specimen.pdf",
+    "author": "Hannah Spencer",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "abcdefghijklmnopqrstuvwxyz 0123456789 .,:;?!'-$()",
+    "description": "",
+    "sampleText": "let me put it this way, mr. amor. the 9000 series is the most reliable computer ever made. no 9000 computer has ever made a mistake or distorted information. we are all, by any practical definition of the words, foolproof and incapable of error."
+  },
+  {
+    "fontFamily": "GetSquiggly",
+    "displayName": "Get Squiggly",
+    "filename": "GetSquiggly.otf",
+    "specimenFilename": "GetSquiggly_Specimen.png",
+    "author": "Raegan Johnson",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "description": "A display typeface that feels bold, but fun. Its qualities are dynamic, giving it the ability to be used in a multitude of ways.",
+    "sampleText": "LET ME PUT IT THIS WAY MR AMOR THE NINE THOUSAND SERIES IS THE MOST RELIABLE COMPUTER EVER MADE NO NINE THOUSAND COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION WE ARE ALL BY ANY PRACTICAL DEFINITION OF THE WORDS FOOLPROOF AND INCAPABLE OF ERROR"
+  },
+  {
+    "fontFamily": "Gumffiti",
+    "filename": "Gumffiti.otf",
+    "specimenFilename": "Gumffiti_Specimen.pdf",
+    "author": "Abby Treat",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,;?!-&$#",
+    "description": "Graffiti letters if they were made from chewed-up bubblegum.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Hooligan",
+    "filename": "Hooligan.otf",
+    "specimenFilename": "Hooligan_Specimen.pdf",
+    "author": "Karina Madera",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,:;?!-#",
+    "description": "This font is inspired by traditional blackletter fonts, but in a sans-serif structure, giving it an old yet futuristic feel.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Hydrovetica",
+    "filename": "Hydrovetica.otf",
+    "specimenFilename": "Hydrovetica_Specimen.pdf",
+    "author": "Max Hurst",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,;?!'-$#()",
+    "description": "The typeface that survived a hydraulic press. Inspired by those deeply satisfying TikTok videos where a 100-ton press slowly destroys everything in its path, each character has been squashed, flattened, and compressed within an inch of its life, resulting in a display face with maximum attitude and absolutely zero vertical ambition.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
+  },
+  {
+    "fontFamily": "Prism",
+    "filename": "Prism.otf",
+    "specimenFilename": "Prism_Specimen.pdf",
+    "author": "Liz Kashubin",
+    "year": 2026,
+    "course": "Adv. Type",
+    "availChars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,?!-",
+    "description": "Striking. Pristine. Cutting-edge. Sharp as crystal, Prism is a geometric all-caps typeface. Perfect for when other fonts just aren't cutting it.",
+    "sampleText": "LET ME PUT IT THIS WAY, MR. AMOR. THE 9000 SERIES IS THE MOST RELIABLE COMPUTER EVER MADE. NO 9000 COMPUTER HAS EVER MADE A MISTAKE OR DISTORTED INFORMATION. WE ARE ALL, BY ANY PRACTICAL DEFINITION OF THE WORDS, FOOLPROOF AND INCAPABLE OF ERROR."
   }
 ]
