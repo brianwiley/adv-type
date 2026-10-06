@@ -44,7 +44,7 @@ const Main = ({ theme, toggleTheme }) => {
                     <div className="grid-container">
                         <div>
                             <div className="fontPreview" style={{ fontFamily: font.fontFamily }}>
-                                {font.availChars}
+                                {customText ? applyCase(customText, font.case) : font.availChars}
                             </div>
                             <div className="fontSize fontSize-1">
                             </div>
