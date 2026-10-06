@@ -13,6 +13,7 @@
   {
     "fontFamily": "SpaceAge",
     "filename": "SpaceAge.otf",
+    "case": "upper",
     "specimenFilename": "Barbour_SpaceAge_Specimen.pdf",
     "author": "Kassandra Barbour",
     "year": 2018,
@@ -24,6 +25,7 @@
   {
     "fontFamily": "Cyber",
     "filename": "Cyber.otf",
+    "case": "upper",
     "specimenFilename": "CyberSpecimen.pdf",
     "author": "Madina Khodjanyazova",
     "year": 2018,
@@ -35,6 +37,7 @@
   {
     "fontFamily": "Swirl",
     "filename": "swirl.otf",
+    "case": "lower",
     "specimenFilename": "SwirlSpecimenSheet.pdf",
     "author": "Jessica Barron",
     "year": 2018,
@@ -68,6 +71,7 @@
   {
     "fontFamily": "Delusive",
     "filename": "Delusive.otf",
+    "case": "upper",
     "specimenFilename": "Delusive_Specimen.pdf",
     "author": "Jeff Lautenslager",
     "year": 2018,
@@ -112,6 +116,7 @@
   {
     "fontFamily": "Shroom",
     "filename": "Shroom.otf",
+    "case": "upper",
     "specimenFilename": "Shroom.pdf",
     "author": "Camille Poynter",
     "year": 2018,
@@ -123,6 +128,7 @@
   {
     "fontFamily": "edge",
     "filename": "edge.otf",
+    "case": "lower",
     "specimenFilename": "edge.pdf",
     "author": "Daniel Saline",
     "year": 2018,
@@ -134,6 +140,7 @@
   {
     "fontFamily": "Parigot",
     "filename": "Parigot.otf",
+    "case": "upper",
     "specimenFilename": "Parigot.pdf",
     "author": "Molly Schmidt",
     "year": 2018,
@@ -145,6 +152,7 @@
   {
     "fontFamily": "Crinkle",
     "filename": "Crinkle.otf",
+    "case": "upper",
     "specimenFilename": "Crinkle.pdf",
     "author": "Mason Seeberger",
     "year": 2018,
@@ -156,6 +164,7 @@
   {
     "fontFamily": "Ribbon",
     "filename": "Ribbon.otf",
+    "case": "upper",
     "specimenFilename": "Ribbon.pdf",
     "author": "Allegra Weeks",
     "year": 2018,
@@ -178,6 +187,7 @@
   {
     "fontFamily": "Greyletter",
     "filename": "Greyletter.otf",
+    "case": "lower",
     "specimenFilename": "Greyletter_Specimen_Sheet.pdf",
     "author": "Chloe Pampush",
     "year": 2019,
@@ -212,6 +222,7 @@
     "fontFamily": "BubblyCursive",
     "displayName": "Bubbly Cursive",
     "filename": "BubblyCursive.otf",
+    "case": "lower",
     "specimenFilename": "BubblyCursive_Specimen.pdf",
     "author": "Patricia Furtuna",
     "year": 2026,
@@ -223,6 +234,7 @@
   {
     "fontFamily": "Cipher",
     "filename": "Cipher.otf",
+    "case": "lower",
     "specimenFilename": "Cipher_Specimen.pdf",
     "author": "Makena Walker",
     "year": 2026,
@@ -234,6 +246,7 @@
   {
     "fontFamily": "Creepy",
     "filename": "Creepy.otf",
+    "case": "lower",
     "specimenFilename": "Creepy_Specimen.pdf",
     "author": "Elizabeth Dobbs",
     "year": 2026,
@@ -245,6 +258,7 @@
   {
     "fontFamily": "Crow",
     "filename": "Crow.otf",
+    "case": "upper",
     "specimenFilename": "Crow_Specimen.pdf",
     "author": "Carson Murray",
     "year": 2026,
@@ -256,6 +270,7 @@
   {
     "fontFamily": "Deflata",
     "filename": "Deflata.otf",
+    "case": "lower",
     "specimenFilename": "Deflata_Specimen.pdf",
     "author": "Asia Lawyer",
     "year": 2026,
@@ -268,6 +283,7 @@
     "fontFamily": "DeutschPapier",
     "displayName": "Deutsch Papier",
     "filename": "DeutschPapier.otf",
+    "case": "lower",
     "specimenFilename": "DeutschPapier_Specimen.pdf",
     "author": "Hannah Spencer",
     "year": 2026,
@@ -280,6 +296,7 @@
     "fontFamily": "GetSquiggly",
     "displayName": "Get Squiggly",
     "filename": "GetSquiggly.otf",
+    "case": "upper",
     "specimenFilename": "GetSquiggly_Specimen.png",
     "author": "Raegan Johnson",
     "year": 2026,
@@ -291,6 +308,7 @@
   {
     "fontFamily": "Gumffiti",
     "filename": "Gumffiti.otf",
+    "case": "upper",
     "specimenFilename": "Gumffiti_Specimen.pdf",
     "author": "Abby Treat",
     "year": 2026,
@@ -302,6 +320,7 @@
   {
     "fontFamily": "Hooligan",
     "filename": "Hooligan.otf",
+    "case": "upper",
     "specimenFilename": "Hooligan_Specimen.pdf",
     "author": "Karina Madera",
     "year": 2026,
@@ -313,6 +332,7 @@
   {
     "fontFamily": "Hydrovetica",
     "filename": "Hydrovetica.otf",
+    "case": "upper",
     "specimenFilename": "Hydrovetica_Specimen.pdf",
     "author": "Max Hurst",
     "year": 2026,
@@ -324,6 +344,7 @@
   {
     "fontFamily": "Prism",
     "filename": "Prism.otf",
+    "case": "upper",
     "specimenFilename": "Prism_Specimen.pdf",
     "author": "Liz Kashubin",
     "year": 2026,
@@ -335,6 +356,7 @@
   {
     "fontFamily": "Puffed",
     "filename": "Puffed.otf",
+    "case": "upper",
     "specimenFilename": "Puffed_Specimen.pdf",
     "author": "Melanie McKenzie",
     "year": 2026,
@@ -346,6 +368,7 @@
   {
     "fontFamily": "Strand",
     "filename": "Strand.otf",
+    "case": "upper",
     "specimenFilename": "Strand_Specimen.pdf",
     "author": "Kayla Anderson",
     "year": 2026,

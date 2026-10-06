@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import fonts from '../font-details.json';
 import button from '../topButton.svg';
 import '../App.css';
 
-const Main = ({ theme, toggleTheme }) => (
+// Single-case fonts get custom text converted to the case they actually have.
+const applyCase = (text, fontCase) => {
+    if (fontCase === 'upper') return text.toUpperCase();
+    if (fontCase === 'lower') return text.toLowerCase();
+    return text;
+};
+
+const Main = ({ theme, toggleTheme }) => {
+    const [customText, setCustomText] = useState('');
+
+    return (
     <React.Fragment>
         <div className="header navbar">
             <span>Boise State GDes Typography</span>
             <span className="header-actions">
+                <input
+                    type="search"
+                    className="custom-text"
+                    placeholder="Type to preview…"
+                    aria-label="Preview custom text in every typeface"
+                    value={customText}
+                    onChange={e => setCustomText(e.target.value)}
+                />
                 <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
                     <span className="toggle-track"><span className="toggle-thumb"></span></span>
                     <span className="toggle-label">{theme === 'dark' ? 'Light' : 'Dark'}</span>
@@ -33,7 +51,7 @@ const Main = ({ theme, toggleTheme }) => (
                         </div>
                         <div>
                             <div className="sampleText" style={{ fontFamily: font.fontFamily }} >
-                                {font.sampleText}
+                                {customText ? applyCase(customText, font.case) : font.sampleText}
                             </div>
                             <div className="fontSize-2">
                             </div>
@@ -55,6 +73,7 @@ const Main = ({ theme, toggleTheme }) => (
         </div>
         <a className="backToTop" href="#top" ><img src={button} alt="back to top"></img></a>
     </React.Fragment>
-);
+    );
+};
 
 export default Main;
